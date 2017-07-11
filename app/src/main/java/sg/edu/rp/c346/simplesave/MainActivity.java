@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor prefEdit = prefs.edit();
-        prefEdit.putString("greeting", "Hello!");
+        prefEdit.putString("greeting", "Bye");
         prefEdit.commit();
     }
 
